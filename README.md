@@ -2,14 +2,14 @@
 # EcommerceDW — E-Commerce Data Warehouse & Power BI Dashboard
 
 ## Project Overview
-EcommerceDW is an end-to-end analytics project built to practice data engineering and business intelligence workflows. The project uses e-commerce source files, SQL Server for staging and dimensional modeling, and Power BI to create an interactive executive dashboard.
+EcommerceDW is an end-to-end analytics project built to practice data engineering and business intelligence workflows. The project uses e-commerce source files, SQL Server for staging and dimensional modeling, and Power BI to create an interactive executive dashboard
 
 ## Business Objectives
-- Monitor completed sales revenue and profit.
-- Compare revenue across product categories and sales channels.
-- Track monthly revenue trends.
-- Understand transaction distribution by payment method and transaction status.
-- Explore results using Year and Category filters.
+- Monitor completed sales revenue and profit
+- Compare revenue across product categories and sales channels
+- Track monthly revenue trends
+- Understand transaction distribution by payment method and transaction status
+- Explore results using Year and Category filters
 
 ## Tools
 - Microsoft Excel — initial data exploration
@@ -28,7 +28,7 @@ The analytical model uses a transaction-level fact table and dimension tables:
 - `DimPaymentMethod` — payment method
 - `DimStatus` — transaction status
 
-The dashboard's sales and profit KPIs use completed transactions only. The status distribution visual includes all transaction statuses so completed, cancelled, and refunded transactions can be compared.
+The dashboard's sales and profit KPIs use completed transactions only. The status distribution visual includes all transaction statuses so completed, cancelled, and refunded transactions can be compared
 
 ## Key Power BI Measures
 ```DAX
@@ -72,7 +72,7 @@ The Executive Overview includes:
 - Revenue by Sales Channel
 - Transactions by Payment Method
 - Transaction Status Distribution
-- Revenue vs. Profit by Category
+- Revenue vs Profit by Category
 - Interactive Year and Category slicers
 
 ## Selected Results
